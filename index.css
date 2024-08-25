@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;               
+    padding: 10px;
+    border-style: none none double;
+    border-width: 6px;
+    border-color: rgb(193, 192, 192);
+    margin-bottom: 20px; 
+
+}
+
+h1 {
+    font-size: 84px;
+    color: var(--Dark, #3C3030);
+    font-family: "Iowan Old Style";
+}
+
+input {
+    display: inline-flex;
+    background-image: url('Frame 15.svg');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;  
+    line-height: 50px;             
+    padding-left: 30px;           
+    height: 40px;                  
+    border: 1px solid #ccc;                         
+    box-sizing: border-box;     
+}
+
+button {
+    display: inline-flex;   
+    height: 40px;   
+    width: 40px;
+    justify-content: center;
+    align-items: center; 
+    border-radius: none;
+    border: none;
+    background-color: #E84848;
+    color: #FDFDFA;
+}
+
+.search {
+    display: flex;                
+    align-items: center;          
+    justify-content: center;       
+    margin: 0 auto;                
+    width: 300px;               
+}
+
+.content {
+    color: var(--Dark-Red, #D02424);
+    font-family: "Inria Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+    padding-left: 420px;
+    margin: 20px 0;
+}
+
+table {
+    margin: 0 auto;
+    
+    align-self: center;
+    justify-content: center;
+}
+
+
+
+.content-wrapper {
+    width: 250px ;
+    text-align:start; /* Center the content inside the th */
+    padding-bottom: 80px; /* Add space below the text */
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+table img {
+    width: 250px;
+    margin-bottom: 10px; 
+    padding-right: 80px;
+    
+}
+
+
+
+.highlight {
+    color: var(--Dark, #3C3030);
+    font-family: "Inknut Antiqua";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 21.6px */
+    letter-spacing: -0.72px;
+    margin-bottom: 5px; /* Adds space between the title and description */
+}
+
+.secondrow {
+    color: var(--Dark, #3C3030);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    margin-bottom: 5px; /* Adds space between the description and read more link */
+}
+
+.thirdrow {
+    color: var(--Dark, #3C3030);
+    font-family: "Inria Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+
+.middleone {
+    display: flex;
+    flex: 1;
+    justify-content: start;
+    text-align:start;
+    align-items: start;
+}
+
+span {
+    color: var(--Dark-Red, #D02424);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    text-decoration-line: underline;
+    margin-left: 10px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 59px;
+    margin-bottom: 57px;
+    border-top: 1px solid grey;
+}
+
+.footer img {
+    display: inline-block;
+    width: 8.302px;
+    height: 8.302px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: auto;
+}
+
+.footer p {
+    display: inline-block;
+    margin-left: 4px;
+    justify-content: center;
+    align-items: center;
+}
